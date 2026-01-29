@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(node:*)",
+      "Bash(chmod:*)",
+      "Bash(./setup.sh:*)",
+      "Bash(dpkg:*)",
+      "Bash(apt-cache search:*)",
+      "Bash(./fix-install.sh)"
+    ]
+  }
+}

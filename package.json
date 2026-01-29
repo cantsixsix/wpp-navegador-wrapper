@@ -1,0 +1,34 @@
+{
+  "name": "whatsapp-desktop",
+  "version": "1.0.0",
+  "description": "WhatsApp Desktop App para Windows (via WSL)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "setup": "bash setup.sh",
+    "add-shortcuts": "bash install-shortcuts.sh",
+    "make-executable": "bash criar-executavel-windows.sh"
+  },
+  "keywords": [
+    "whatsapp",
+    "desktop",
+    "electron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^40.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.whatsapp.desktop",
+    "productName": "WhatsApp",
+    "win": {
+      "target": "portable",
+      "icon": "icon.png"
+    }
+  }
+}

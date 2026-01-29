@@ -1,0 +1,105 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Electron
+dist/
+build/
+out/
+*.dmg
+*.exe
+*.app
+*.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# Backup files
+*.backup
+*.bak
+*~
+main.js.backup
+
+# Scripts temporários e arquivos de teste
+test-*.js
+*.test.js
+debug.log
+
+# Arquivos específicos do Windows
+nul
+
+# Arquivos gerados durante instalação (manter os scripts principais)
+install-deps-quick.sh
+criar-executavel-windows.sh
+fix-install.sh
+solucao-final.sh
+instalar-electron-windows.sh
+
+# Arquivos VBS/BAT temporários (manter apenas os essenciais)
+atualizar-*.vbs
+update-*.vbs
+
+# Diretórios de instalação (não committar paths do sistema)
+/mnt/
+
+# Documentação temporária
+PRONTO-PARA-USAR.md
+guia-rapido.md
