@@ -103,3 +103,6 @@ update-*.vbs
 # Documentação temporária
 PRONTO-PARA-USAR.md
 guia-rapido.md
+
+# Configuração local do Claude Code
+.claude/settings.local.json
